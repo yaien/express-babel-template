@@ -1,6 +1,5 @@
-import { Application } from "express";
 import { useStatusRoutes } from "../routes/status.routes";
 
-export default (app: Application) => {
+export default app => {
   useStatusRoutes(app);
 };
